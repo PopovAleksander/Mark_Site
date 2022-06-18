@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: black;
+    background-color: #1f2026;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 .button {
-    background-color: #36bbce;
+    background-color: #f0a22b;
     color: black;
     text-decoration: none;
     padding: 15px;
@@ -43,14 +43,32 @@ nav {
 
 h1 {
     text-align: center;
-    color: white;
+    color: #f0a22b;
     font-size: 36px;
     margin-top: 45px;
     margin-bottom: 40px;
 }
 
+h2{
+    color: #f0a22b;
+}
+
 .post-text {
     font-size: 24px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inside{
+    width: 1000px;
+    color: #9F3ED5;
+    font-size: 22px;
+}
+.img_inside{
+    margin: 0px 50px 0px 50px;
 }
 
 .info {
